@@ -6256,8 +6256,8 @@ function afterSessionCreationSuccess() {
     // });
     $('#details').remove();
     $('#dashboard').removeClass('hide').show();
-    $('#roomcontainer').hide();
-    $("#configModal").hide();
+    //$('#roomcontainer').hide();
+    //$("#configModal").hide();
     getUserList();
     getConfRoomList()
 }
